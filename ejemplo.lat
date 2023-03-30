@@ -1,0 +1,13 @@
+// incluye el modulo en latino
+incluir("libnucleoex")
+
+libes.imprimir("libnucleoex versión: " .. libnucleoex.version() .. "\n")
+
+imprimir("Creamos test.")
+libruta.crear_dir("test")
+
+imprimir("test existe: " .. libruta.existe("test"))
+
+imprimir("Eliminanos a test.")
+libruta.remover_dir("test")
+imprimir("test existe: " .. libruta.existe("test"))
