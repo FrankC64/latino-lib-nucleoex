@@ -5,8 +5,6 @@ latino-lib-nucleoex es una extensión para Latino, la cual integra más funcione
 ## Tabla de contenidos
 * [Tabla de contenidos](#tabla)
     * [Instalación](#instalacion)
-        * [Instalación (LAP)](#instalacion_lap)
-        * [Instalación manual](#instalacion_manual)
     * [Compilación](#compilacion)
         * [Windows](#windows)
             * [MinGW](#mingw)
@@ -18,34 +16,7 @@ latino-lib-nucleoex es una extensión para Latino, la cual integra más funcione
 ## Instalación
 Antes de comenzar, debe saber que la instalación **SIN COMPILACIÓN** es exclusivamente para la versión **1.4.0** de Latino en **Windows**, por lo que si usted tiene una versión superior o inferior o se encuentra en un sistema que no sea Windows debe consultar el apartado de [compilación](#compilacion).
 
-<a name="instalacion_lap"></a>
-### Instalación (LAP)
-El primer método de instalación es a través del administrador de paquetes **LAP**. Antes de continuar debe tener **Python** instalado.
-
-**1-** Instalamos el administrador de paquetes con **pip**.
-```Batch
-pip install LAP-latino-client
-```
-
-**2-** Nos ubicamos en la carpeta donde está nuestro proyecto, en caso contrario la librería será instalada fuera del alcance de Latino.
-
-**3-** Utilizamos **LAP** para instalar la librería.
-```Batch
-python -m LAP instalar latino-lib-nucleox
-```
-
-**4-** En la parte superior de su script de Latino ponga lo siguiente:
-```Latino
-incluir("libnucleoex")
-```
-
-Y ya está todo listo para utilizar la librería.
-
-<a name="instalacion_manual"></a>
-### Instalación manual
-Aquí se muestra paso a paso la forma de instalar la librería en caso de no tener **Python** o no querer utilizar el administrador de paquetes **LAP**.
-
-**1-** Haga click [aquí](https://github.com/FrankC64/latino-lib-nucleox/releases/latest/download/latino-lib-nucleox.zip) para descargar la última versión.
+**1-** Haga click [aquí](https://github.com/FrankC64/latino-lib-nucleoex/releases/latest/download/latino-libnucleoex.zip) para descargar la última versión.
 
 **2-** Vaya a la carpeta de instalación de Latino y en la subcaperta "bin" extraiga **latino-libnucleoex.dll**.
 
