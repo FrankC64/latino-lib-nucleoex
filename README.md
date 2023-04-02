@@ -129,7 +129,7 @@ sudo make install
 
 <a name="wiki"></a>
 ## Wiki
-Click [aquí](https://github.com/FrankC64/latino-lib-nucleox/wiki) para conocer las funciones de la librería.
+Click [aquí](https://github.com/FrankC64/latino-lib-nucleoex/wiki) para conocer las funciones de la librería.
 
 ## Preguntas y respuestas
 \- **¿Qué es el modo seguro?**<br>
