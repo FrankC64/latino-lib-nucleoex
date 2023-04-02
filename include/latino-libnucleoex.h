@@ -1,7 +1,7 @@
 #ifndef LATINO_LIBNUCLEOEX
 #define LATINO_LIBNUCLEOEX
 
-#define LIBNUCLEOEX_VERSION "0.0.1"
+#define LIBNUCLEOEX_VERSION "0.0.2"
 
 #include <latino.h>
 #include <latino-libruta.h>
