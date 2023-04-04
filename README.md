@@ -11,6 +11,8 @@ latino-lib-nucleoex es una extensión para Latino, la cual integra más funcione
             * [Visual Studio](#visual_studio)
         * [Linux](#linux)
     * [Wiki](#wiki)
+    * [Ejemplos](#ejemplos)
+    * [Preguntas y respuestas](#preguntasyrespuestas)
 
 <a name="instalacion"></a>
 ## Instalación
@@ -102,6 +104,40 @@ sudo make install
 ## Wiki
 Click [aquí](https://github.com/FrankC64/latino-lib-nucleoex/wiki) para conocer las funciones de la librería.
 
+<a name="ejemplos"></a>
+## Ejemplos
+### Crea y eliminar una carpeta
+```Latino
+// incluye el modulo en latino
+incluir("libnucleoex")
+
+imprimir("Creamos test.")
+libruta.crear_dir("test")
+
+imprimir("test existe: " .. libruta.existe("test"))
+
+imprimir("Eliminanos a test.")
+libruta.remover_dir("test")
+imprimir("test existe: " .. libruta.existe("test"))
+```
+
+### Listar el directorio actual
+```Latino
+// incluye el modulo en latino
+incluir("libnucleoex")
+
+imprimir(libruta.listar_dir("."))
+```
+
+### Imprimir caracteres no ASCII
+```Latino
+// incluye el modulo en latino
+incluir("libnucleoex")
+
+libes.imprimir("¿Cómo estás?\n")
+```
+
+<a name="preguntasyrespuestas"></a>
 ## Preguntas y respuestas
 \- **¿Qué es el modo seguro?**<br>
 Como actualmente no existe la forma de controlar errores y excepciones en Latino se implementó una funcionalidad para evitar que los errores producidos por la librería detenga el funcionamiento del código y el programador pueda tomar una decisión de qué hacer en caso de que se produzcan estos errores.
